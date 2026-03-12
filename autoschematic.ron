@@ -1,0 +1,16 @@
+AutoschematicConfig(
+    prefixes: {
+        "main": Prefix(
+            connectors: [
+                Connector(
+                    shortname: "dummy",
+                    spec: PythonLocal(
+                        // Absolute paths are also supported.
+                        // path: "/home/chef/prog/ottercorp-connector-mything/mything.py",
+                        path: "./connectors/dummy.py",
+                    ),
+                )
+            ]
+        )
+    }
+)

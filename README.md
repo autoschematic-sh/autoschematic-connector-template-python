@@ -1,6 +1,6 @@
 ## autoschematic-connector-template-python
 
-This crate is a minimal starter template for building a new Autoschematic connector in Python. 
+This repo forms a minimal starter template for building a new Autoschematic connector in Python. 
 
 Start with these changes:
 
